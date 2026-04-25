@@ -4,7 +4,7 @@ import { ShieldCheck, Eye, Database, Globe, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
 export default function PrivacyPage() {
-  const lastUpdated = "April 08, 2026";
+  const lastUpdated = "April 25, 2026";
 
   return (
     <main className="bg-brand-surface min-h-screen pt-32 pb-20">
@@ -36,7 +36,7 @@ export default function PrivacyPage() {
               <h2 className="text-xl font-black text-brand-text uppercase tracking-tight">Commitment to Security</h2>
             </div>
             <p className="text-brand-text/60 leading-relaxed">
-              FlexiPay Systems Ltd (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is committed to protecting the privacy of our clients and website visitors. This policy outlines how we handle personal data in accordance with UK GDPR and the Data Protection Act 2018.
+             M&M Accounts & Taxation (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is committed to protecting the privacy of our clients and website visitors. This policy outlines how we handle personal data in accordance with UK GDPR and the Data Protection Act 2018.
             </p>
           </section>
 
@@ -82,12 +82,12 @@ export default function PrivacyPage() {
               <h2 className="text-xl font-black text-brand-text uppercase tracking-tight">Your Rights</h2>
             </div>
             <p className="text-brand-text/60 leading-relaxed">
-              Under UK GDPR, you have the right to access, rectify, or erase your personal data. You may also object to processing or request data portability. To exercise these rights, please contact our Data Controller at <span className="text-brand-text font-bold">info@flexipaysystems.com</span>.
+              Under UK GDPR, you have the right to access, rectify, or erase your personal data. You may also object to processing or request data portability. To exercise these rights, please contact our Data Controller at <span className="text-brand-text font-bold">info@mandmaccountsandtaxation.com</span>.
             </p>
           </section>
 
           <div className="pt-12 border-t border-brand-text/5 text-[10px] text-brand-text/40 font-bold uppercase tracking-widest text-center">
-            FlexiPay Systems Ltd • Company No: 16293227 • Registered in England & Wales
+            M&M Accounts & Taxation Ltd • Company No: 08021651 • Registered in England & Wales
           </div>
         </div>
       </div>

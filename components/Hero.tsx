@@ -42,7 +42,7 @@ export default function Hero() {
             variants={slideIn("left", 0.1)}
             className="text-[10px] font-black uppercase tracking-[0.3em] text-brand-primary mb-6 block"
           >
-            FlexiPay Systems
+            M&M Accounts & Taxation
           </motion.span>
 
           {/* Headline - Slides in from left with slight delay */}
@@ -50,7 +50,8 @@ export default function Hero() {
             variants={slideIn("left", 0.2)}
             className="text-4xl md:text-5xl font-black text-brand-text mb-6 leading-tight"
           >
-            Startup Payroll & <span className="text-brand-primary italic">Bookkeeping</span>
+            
+Expert Accounting <span className="text-brand-primary italic">& Taxation Services </span>
           </motion.h1>
 
           {/* Subtext - Fades up */}
@@ -58,8 +59,7 @@ export default function Hero() {
             variants={fadeUp(0.3)}
             className="text-lg text-brand-text/70 mb-10 max-w-md leading-relaxed font-medium"
           >
-            Focus on growing your startup while we take care of your payroll, bookkeeping, and compliance — accurate, reliable, and stress-free.
-          </motion.p>
+          Professional financial solutions tailored for your business growth. Trust M&M for accuracy, compliance, and peace of mind.</motion.p>
 
           {/* CTA Buttons - Fades up slightly later */}
           <motion.div 
@@ -118,8 +118,8 @@ export default function Hero() {
                 &quot;We build systems that give UK founders their time back.&quot;
               </p>
               <div className="flex flex-col text-[10px] font-black uppercase text-brand-primary tracking-widest">
-                <span>Nighat Zafar</span>
-                <span className="text-white/40">Founder, FlexiPay Systems</span>
+                <span>Shahid Shah</span>
+                <span className="text-white/40">Founder, M&M Accounts & Taxation</span>
               </div>
             </motion.div>
 

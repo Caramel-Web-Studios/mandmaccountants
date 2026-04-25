@@ -242,7 +242,7 @@ export default function ContactPage() {
               <p className="text-[10px] font-black uppercase tracking-[0.2em] opacity-40 mb-1">
                 Direct Correspondence
               </p>
-              <p className="text-xl md:text-2xl font-bold tracking-tight">+44 7828 693 818</p>
+              <p className="text-xl md:text-2xl font-bold tracking-tight">+44 2085973316 </p>
             </div>
           </div>
           <div className="flex items-center gap-6 p-8 rounded-[2.5rem] bg-white border border-brand-text/5 shadow-sm group flex-1 transition-all hover:-translate-y-1">
@@ -251,10 +251,10 @@ export default function ContactPage() {
             </div>
             <div>
               <p className="text-[10px] font-black uppercase tracking-[0.2em] text-brand-text/40 mb-1">
-                Electronic Mail
+                E-Mail
               </p>
               <p className="text-xl md:text-2xl font-bold text-brand-text lowercase tracking-tight">
-                info@flexipaysystems.com
+               info@mandmaccountsandtaxation.com
               </p>
             </div>
           </div>

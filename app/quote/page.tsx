@@ -42,7 +42,7 @@ export default function QuotePage() {
 
           <div className="pt-6 border-t border-brand-muted/20">
             <p className="text-sm text-brand-muted italic leading-relaxed">
-              &quot;FlexiPay transformed our payroll process. They are more than accountants; they are partners.&quot;
+              &quot;M&M  transformed our payroll process. They are more than accountants; they are partners.&quot;
             </p>
             <p className="text-sm font-bold mt-2 text-brand-text">— Sarah J., CEO of TechFlow</p>
           </div>

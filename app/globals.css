@@ -97,3 +97,8 @@ body {
   width: 100% !important;
   float: none !important;
 }
+
+
+button {
+  @apply bg-brand-navy text-white px-4 py-2 rounded-md hover:opacity-90 transition;
+}

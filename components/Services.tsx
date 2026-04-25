@@ -6,7 +6,7 @@ export default function Services() {
   return (
     <section id="services" className="py-32 px-6 max-w-7xl mx-auto">
       <div className="text-center mb-20">
-        <h2 className="text-4xl font-black text-brand-navy tracking-tight">Scale with confidence</h2>
+        <h2 className="text-4xl font-black text-brand-navy tracking-tight">Our Services</h2>
       </div>
       
       <div className="grid md:grid-cols-3 gap-8">

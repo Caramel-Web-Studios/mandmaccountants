@@ -10,11 +10,10 @@ export default function Footer() {
         {/* FlexiPay Branding */}
         <div>
           <h3 className="text-brand-primary font-black text-xl mb-6 tracking-tighter uppercase">
-            FlexiPay<span className="text-white/50">Systems</span>
+            M&M <span className="text-white/50">Accounts & Taxation</span>
           </h3>
           <p className="text-sm text-white/60 leading-relaxed">
-           FlexiPay, a modern accountancy firm headquartered in Romford, United Kingdom, emerged with a vision to streamline the financial operations of businesses. With a niche in bookkeeping and payroll services, we have honed our expertise to cater to the needs of small and medium-sized enterprises.
-          </p>
+         Your trusted partner for comprehensive accounting and taxation services.</p>
         </div>
 
         {/* Contact Info - Using Teal #19757e for Icons */}
@@ -23,21 +22,21 @@ export default function Footer() {
           
           <div className="flex items-start gap-3 text-sm text-white/80">
             <MapPin size={18} className="text-brand-primary shrink-0" />
-            <p>4 Wangey Road<br />Chadwell Heath, Romford<br />London, RM6 4DD</p>
+            <p>35 Belvedere Avenue,<br />Ilford,London<br />IG5 0UE</p>
           </div>
 
           {/* ADDED PHONE NUMBER SECTION */}
           <div className="flex items-center gap-3 text-sm text-white/80">
             <Phone size={18} className="text-brand-primary" />
-            <a href="tel:+447828693818" className="hover:text-brand-primary transition">
-              +44 7828693818
+            <a href="tel:+442085973316 " className="hover:text-brand-primary transition">
+              +44 2085973316 
             </a>
           </div>
 
           <div className="flex items-center gap-3 text-sm text-white/80">
             <Mail size={18} className="text-brand-primary" />
-            <a href="mailto:info@flexipaysystems.com" className="hover:text-brand-primary transition">
-              info@flexipaysystems.com
+            <a href="mailto:info@mandmaccountsandtaxation.com" className="hover:text-brand-primary transition">
+              info@mandmaccountsandtaxation.com
             </a>
           </div>
         </div>
@@ -61,7 +60,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/30">
-        <p>© 2026 FlexiPay Systems Ltd • <Link href="/privacy" className="hover:text-white transition">Privacy & Compliance</Link></p>
+        <p>© 2026 M&M Accounts & Taxation Ltd • <Link href="/privacy" className="hover:text-white transition">Privacy & Compliance</Link></p>
         
         <a 
           href="https://caramelwebstudios.com" 
