@@ -95,7 +95,7 @@ Expert Accounting <span className="text-brand-primary italic">& Taxation Service
             <div className="relative z-20 w-full h-125 flex items-end justify-center pointer-events-none overflow-hidden rounded-3xl">
               <Image 
                 src="/founder.jpg" 
-                alt="Nighat Zafar - Founder"
+                alt="Shahid Shah- Founder"
                 width={600}
                 height={750}
                 priority
