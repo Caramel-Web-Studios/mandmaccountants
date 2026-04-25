@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { BarChart3, ShieldCheck, PieChart, ArrowRight } from 'lucide-react';
+import { BarChart3, BookOpenCheck, Users, PieChart, ArrowRight } from 'lucide-react';
 
 export default function Services() {
   return (
@@ -9,23 +9,29 @@ export default function Services() {
         <h2 className="text-4xl font-black text-brand-navy tracking-tight">Our Services</h2>
       </div>
       
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 gap-8">
         <ServiceCard 
           icon={<PieChart size={32} />}
-          title="Payroll Management"
-          desc="At FlexiPay, we offer reliable and fully managed payroll services to ensure your employees are paid accurately and on time, every time. From payslip generation and HMRC submissions to pension contributions and year-end reports, we handle it all—so you don’t have to."
+          title="Tax Planning"
+          desc="Strategic tax planning to minimise liabilities and maximise savings for your business."
           delay={0.1}
         />
         <ServiceCard 
-          icon={<ShieldCheck size={32} />}
+          icon={<BookOpenCheck size={32} />}
           title="Bookkeeping"
-          desc="At FlexiPay, we take the stress out of managing your day-to-day finances. Our bookkeeping services are designed to keep your records accurate, organized, and up to date—giving you complete visibility over your business’s finances."
+          desc="Accurate and timely bookkeeping services to keep your financial records organized."
           delay={0.2}
         />
         <ServiceCard 
+          icon={<Users size={32} />}
+          title="Payroll Services"
+          desc="Efficient payroll management including salary processing and tax compliance."
+          delay={0.3}
+        />
+         <ServiceCard 
           icon={<BarChart3 size={32} />}
-          title="CFO Insights"
-          desc="High-level guidance on cash flow and profitable scaling."
+          title="Financial Analysis"
+          desc="In-depth financial analysis and reporting to drive informed business decisions."
           delay={0.3}
         />
       </div>
