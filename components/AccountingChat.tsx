@@ -90,7 +90,7 @@ export default function AccountingChat() {
     }
 
     // 🚀 DIRECT TO BOOKING PAGE
-    window.location.href = "/contact";
+    window.location.href = "/booking";
   };
 
   return (
