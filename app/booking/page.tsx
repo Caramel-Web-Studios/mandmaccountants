@@ -91,7 +91,7 @@ export default function ContactPage() {
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <motion.h1
             variants={fadeUp(0.2)}
-            className="text-6xl md:text-8xl font-black text-brand-text uppercase tracking-tight"
+            className="text-4xl md:text-6xl font-black text-brand-text uppercase tracking-tight"
           >
             Book Your <br />
             <span className="text-brand-primary">Accountant</span>

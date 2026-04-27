@@ -2,48 +2,71 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ClosingCTA() {
   return (
-    <section className="py-32 bg-brand-surface border-t border-brand-text/10 px-6 text-brand-text">
-      <div className="max-w-4xl mx-auto text-center">
+    <section className="relative py-28 px-6 text-brand-text overflow-hidden">
+
+      {/* BACKGROUND IMAGE */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/closingCTA.jpg"
+          alt="desk with pc with a curved screen"
+          fill
+          className="object-cover object-center scale-105"
+        />
+
+        {/* OVERLAY (IMPORTANT FOR READABILITY) */}
+        <div className="absolute inset-0 bg-linear-to-b from-brand-surface/95 via-brand-surface/85 to-brand-surface/95" />
+      </div>
+
+      {/* CONTENT */}
+      <div className="relative z-10 max-w-3xl mx-auto text-center">
+
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
         >
+
+          {/* SMALL TAG */}
           <span className="text-[10px] font-black uppercase tracking-[0.4em] text-brand-primary mb-6 block">
-            FlexiPay Systems
+            Let’s Get Started
           </span>
 
-          <h2 className="text-4xl md:text-5xl font-black text-brand-text mb-6 leading-tight tracking-tight">
-            Let’s Handle Your Payroll & Bookkeeping
+          {/* HEADLINE */}
+          <h2 className="text-4xl md:text-5xl font-black text-brand-text mb-6 leading-tight">
+            Ready to Take Control of Your Finances?
           </h2>
 
-          <p className="text-brand-text/70 text-lg mb-12 max-w-lg mx-auto font-medium leading-relaxed">
-            Focus on growing your business while we ensure your payroll, bookkeeping, and compliance are accurate, reliable, and stress-free.
+          {/* SUBTEXT */}
+          <p className="text-brand-text/70 text-lg mb-10 max-w-xl mx-auto font-medium leading-relaxed">
+            Book a quick consultation with our team and get clarity on your tax,
+            bookkeeping, and payroll position in minutes.
           </p>
 
+          {/* CTA BUTTON */}
           <div className="flex justify-center">
-            <Link href="/contact">
+            <Link href="/booking">
               <motion.button
-                whileHover={{
-                  scale: 1.05,
-                  boxShadow: "0 20px 40px rgba(0,0,0,0.15)",
-                }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-brand-primary text-white px-16 py-6 rounded-full font-black text-lg shadow-2xl shadow-brand-primary/20 transition-all"
+                whileHover={{ scale: 1.04 }}
+                whileTap={{ scale: 0.97 }}
+                className="bg-brand-primary text-white w-full sm:w-auto min-w-70 px-12 py-5 rounded-full font-black text-sm tracking-widest uppercase shadow-lg hover:shadow-2xl transition-all duration-300 flex items-center justify-center"
               >
-                Schedule a Consultation
+                Book Free Consultation
               </motion.button>
             </Link>
           </div>
 
-          <p className="mt-10 text-[10px] font-bold text-brand-text/40 uppercase tracking-widest">
-            Trusted by startups across the UK
+          {/* TRUST LINE */}
+          <p className="mt-8 text-[10px] font-bold text-brand-text/40 uppercase tracking-widest">
+            No obligation • 100% confidential • UK accounting experts
           </p>
+
         </motion.div>
+
       </div>
     </section>
   );
