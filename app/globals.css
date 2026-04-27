@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @theme {
-  /* FlexiPay Systems - Brand Palette */
+  /* M&M - Brand Palette */
   --color-brand-primary: #19757e;   /* Teal - Use for Headers/Nav */
   --color-brand-surface: #e2e2e2;   /* Light Grey - Use for Section Backgrounds */
   --color-brand-text: #003366;      /* Dark Navy - Use for All Primary Text */
@@ -100,5 +100,5 @@ body {
 
 
 button {
-  @apply bg-[var(--color-brand-text)] text-white px-4 py-2 rounded-md hover:opacity-90 transition;
+  @apply bg-brand-text text-white px-4 py-2 rounded-md hover:opacity-90 transition;
 }

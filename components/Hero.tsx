@@ -62,20 +62,24 @@ Expert Accounting <span className="text-brand-primary italic">& Taxation Service
           Professional financial solutions tailored for your business growth. Trust M&M for accuracy, compliance, and peace of mind.</motion.p>
 
           {/* CTA Buttons - Fades up slightly later */}
-          <motion.div 
+  <motion.div
             variants={fadeUp(0.4)}
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-col sm:flex-row gap-5"
           >
-            <Link href="/contact">
-              <button className="bg-brand-text text-white px-12 py-5 rounded-full font-bold flex items-center gap-3 shadow-2xl shadow-brand-text/20 transition-transform hover:scale-105 active:scale-95">
-                Book Free Consultation
-              </button>
+            {/* PRIMARY */}
+            <Link
+              href="/booking"
+              className="bg-brand-text text-white px-10 py-4 rounded-full font-bold text-sm uppercase tracking-widest shadow-lg shadow-brand-text/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl active:scale-95 flex items-center justify-center"
+            >
+              Book Free Consultation
             </Link>
 
-            <Link href="/quote">
-              <button className="bg-white text-brand-text border border-brand-text/20 px-10 py-4 rounded-full font-bold text-lg hover:bg-brand-primary hover:text-white transition-colors">
-                Request a Quote
-              </button>
+            {/* SECONDARY */}
+            <Link
+              href="/quote"
+              className="bg-white text-brand-text border border-brand-text/20 px-10 py-4 rounded-full font-bold text-sm uppercase tracking-widest transition-all duration-300 hover:bg-brand-primary hover:text-white hover:border-brand-primary hover:-translate-y-1 active:scale-95 flex items-center justify-center"
+            >
+              Request a Quote
             </Link>
           </motion.div>
         </div>

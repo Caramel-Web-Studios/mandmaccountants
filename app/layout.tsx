@@ -9,10 +9,10 @@ import { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FlexiPay Systems | Automated UK Payroll & Finance",
+  title: "M&M Accounts & Taxation | Automated UK Payroll & Finance",
   description:
     "Advanced financial systems and automated payroll for UK founders and business owners.",
-  metadataBase: new URL("https://flexipaysystems.com"),
+  metadataBase: new URL("https://mandmaccountsandtaxation.co.uk/"),
 };
 
 export default function RootLayout({
