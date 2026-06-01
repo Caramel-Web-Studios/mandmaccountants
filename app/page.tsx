@@ -5,17 +5,15 @@ import TrustBar from '../components/TrustBar';
 import Services from '../components/Services';
 import CalculatorsSection from '../components/CalculatorsSection';
 import ClosingCTA from '@/components/ClosingCTA';
-import GoogleReviews from '../components/GoogleReviews';
 import Accreditations from '@/components/Accreditations';
 
 
 
 const logos = [
   { src: "/logos/acca.png", alt: "ACCA" },
-  { src: "/logos/icaew.png", alt: "ICAEW" },
-  { src: "/logos/acas.png", alt: "ACAS" },
+  { src: "/logos/ICAEW.jpg", alt: "ICAEW" },
+  { src: "/logos/att.png", alt: "ATT" },
   { src: "/logos/xero.png", alt: "Xero" },
-  { src: "/logos/sage.png", alt: "Sage" },
 ];
 
 
@@ -42,7 +40,7 @@ export default function Home() {
         <CalculatorsSection />
 
       {/* Slide from LEFT */}
-        <GoogleReviews />
+   
 
       {/* Slide from RIGHT */}
         <ClosingCTA />

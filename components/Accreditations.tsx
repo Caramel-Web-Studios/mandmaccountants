@@ -13,7 +13,7 @@ interface AccreditationsProps {
 
 export default function Accreditations({ logos }: AccreditationsProps) {
   return (
-    <section className="border-y border-brand-navy/5 bg-white py-16">
+    <section className="border-y border-gray-300 bg-white py-16">
       
       <div className="max-w-7xl mx-auto px-6">
         
@@ -40,7 +40,6 @@ export default function Accreditations({ logos }: AccreditationsProps) {
                 height={64}
                 className="
                   object-contain 
-                  grayscale 
                   opacity-70 
                   hover:opacity-100 
                   transition-all 

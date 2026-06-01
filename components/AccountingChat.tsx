@@ -98,7 +98,7 @@ export default function AccountingChat() {
 
       {/* CHAT WINDOW */}
       {isOpen && (
-        <div className="bg-white w-85 h-130 rounded-2xl shadow-2xl flex flex-col overflow-hidden border">
+        <div className="bg-white w-85 h-130 rounded-2xl shadow-2xl flex flex-col overflow-hidden ">
 
           {/* HEADER */}
           <div className="bg-brand-primary p-4 text-white flex justify-between items-center">
@@ -134,7 +134,7 @@ export default function AccountingChat() {
                   className={`p-3 rounded-xl text-sm max-w-[80%] ${
                     m.role === "user"
                       ? "bg-brand-primary text-white"
-                      : "bg-white border"
+                      : "bg-white border border-gray-300"
                   }`}
                 >
                   {m.content}
@@ -148,12 +148,12 @@ export default function AccountingChat() {
           </div>
 
           {/* INPUT */}
-          <form onSubmit={handleSubmit} className="p-3 border-t flex gap-2">
+          <form onSubmit={handleSubmit} className="p-3 border-t border-gray-300 flex gap-2">
             <input
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Ask a question..."
-              className="flex-1 p-2 border rounded-md text-sm"
+              className="flex-1 p-2 border border-gray-300 rounded-md text-sm"
             />
             <button className="bg-brand-primary text-white p-2 rounded-md">
               <Send size={16} />

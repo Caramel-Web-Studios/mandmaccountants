@@ -1,6 +1,6 @@
 export default function TrustBar() {
   return (
-    <section className="border-y border-brand-navy/5 bg-white py-12">
+    <section className="border-y border-gray-300 bg-white py-12">
       <div className="max-w-7xl mx-auto px-6">
         <p className="text-center text-xs font-bold text-brand-slate uppercase tracking-[0.2em] mb-10">
           Certified Expert in Modern Financial Tools

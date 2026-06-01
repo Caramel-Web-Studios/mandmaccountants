@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Quote } from "lucide-react";
 import Image from "next/image"; 
 import Link from "next/link";
 // Import your animation variants
@@ -33,7 +32,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-16 items-center">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 py-24 grid  gap-16 items-center">
         
         {/* --- LEFT: Text --- */}
         <div>
@@ -84,7 +83,7 @@ Expert Accounting <span className="text-brand-primary italic">& Taxation Service
           </motion.div>
         </div>
 
-        {/* --- RIGHT: Founder Visual --- */}
+        {/* --- RIGHT: Founder Visual 
         <motion.div 
           // 2. Slide the whole image container from the right
           variants={slideIn("right", 0.4)}
@@ -92,10 +91,10 @@ Expert Accounting <span className="text-brand-primary italic">& Taxation Service
         >
           <div className="relative w-full max-w-sm h-full flex items-end justify-center">
 
-            {/* Background Card */}
+             Background Card 
             <div className="absolute inset-x-0 bottom-0 top-[25%] rounded-[3.5rem] shadow-2xl shadow-brand-primary/20 transform group-hover:scale-[1.02] transition-transform duration-700 ease-out z-0 bg-white/50" />
 
-            {/* Floating Image */}
+             Floating Image 
             <div className="relative z-20 w-full h-125 flex items-end justify-center pointer-events-none overflow-hidden rounded-3xl">
               <Image 
                 src="/founder.jpg" 
@@ -112,7 +111,7 @@ Expert Accounting <span className="text-brand-primary italic">& Taxation Service
               />
             </div>
 
-            {/* Quote Box - Fades up specifically within this group */}
+            * Quote Box - Fades up specifically within this group *
             <motion.div 
               variants={fadeUp(0.7)}
               className="absolute bottom-12 -left-6 -right-6 z-30 bg-brand-text p-7 rounded-[2.5rem] shadow-2xl border border-white/5"
@@ -128,7 +127,7 @@ Expert Accounting <span className="text-brand-primary italic">& Taxation Service
             </motion.div>
 
           </div>
-        </motion.div>
+        </motion.div> --- */}
 
       </div>
     </motion.section>
